@@ -1,0 +1,90 @@
+.navbar{
+    display: flex;
+    justify-content : space-between;;
+    align-items:centre;
+    padding : 10px 20px;
+    background-color : #333;
+    color: White;
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    
+    
+    
+
+
+}
+
+
+
+.expensemanager{
+    margin: 0;
+    font-size: 20px;
+    flex: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:normal;
+
+}
+
+.navlinks{
+    list-style: none;
+    display: flex;
+    gap:8px;
+    margin:0;
+    padding-right: 20px;
+}
+.navitems{
+    margin:0;
+    padding-top: 10px;
+  
+
+}
+.nav-link{
+    color:white;
+    text-decoration: none;
+    font-size:15px;
+    font-weight:bold;
+    padding-right:25px ;
+}
+.profile-container{
+    display:flex;
+    align-items: center;
+
+}
+.profile-logo {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 31px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-logo img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+}
+
+.dropdown-menu{
+    position: absolute;
+    top: 50px;  
+    right: 40px; 
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+.signout-button {
+    
+    color: rgb(19, 18, 18);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    
+    width: 100%;
+  }

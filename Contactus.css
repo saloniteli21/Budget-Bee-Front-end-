@@ -1,0 +1,33 @@
+.table-all{
+    width:auto;
+    
+}
+.conTable{
+    display: block;
+    overflow: hidden;
+    table-layout: fixed;
+    border-collapse: collapse;
+    box-shadow: 0px 10px 10px #ccc;
+    border-radius: 10px;
+    
+
+    
+    width: 100%;
+    margin: auto;
+    background-color:#F8FAFC;
+}
+
+.conTable td{
+    padding: 0.8rem;
+
+}
+.conTable td{
+    border-top: 0.5px solid #ddd;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.conTable tbody tr:hover{
+    background-color: #E2DAD6;
+
+}

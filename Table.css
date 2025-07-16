@@ -1,0 +1,86 @@
+.table-wrapper{
+    width: 100%;
+}
+
+.table{
+    display: block;
+    overflow: hidden;
+    table-layout: fixed;
+    border-collapse: collapse;
+    box-shadow: 0px 10px 10px #ccc;
+    border-radius: 10px;
+    
+
+    
+    width: 100%;
+    margin: auto;
+    background-color:#F8FAFC;
+   
+
+
+    
+}
+
+.table thead{
+    background-color: #ffb5b5;
+    color: #222;
+
+
+
+}
+
+.table th, table td{
+    padding: 0.8rem;
+
+}
+.table td{
+    border-top: 0.5px solid #ddd;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.table tbody tr:hover{
+    background-color: #E2DAD6;
+
+}
+
+
+
+
+
+
+
+
+.actions{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.actions svg{
+    cursor: pointer;
+
+}
+.delete-btn{
+    color: #e10d05;
+}
+.pagination {
+    display:flex;
+    gap: 10px;
+    margin-top : 10px;
+}
+.pagination button {
+    padding: 5px 10px;
+    border:1px solid #ddd;
+    background-color: #f4f4f4;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.pagination button.active{
+    background-color: #111111;
+    color:white;
+}
+.pagination button:hover{
+    background-color:#E2DAD6;
+    color: black;
+}

@@ -1,0 +1,36 @@
+.model-conainer{
+    position: fixed;
+    z-index: 1;
+    left:0;
+    top: 0;
+    width:100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.4);
+
+}
+
+.model{
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: white;
+    width:25rem;
+
+}
+
+.model .btn{
+    display:block;
+    margin: auto;
+    
+
+
+}
+.error{
+    background-color: #f8d7da;
+    color: #df4759;
+    padding:1rem;
+    border-radius: 10px;
+    margin-bottom:1rem;
+}
